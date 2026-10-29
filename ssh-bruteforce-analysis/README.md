@@ -17,7 +17,7 @@ Simulação prática de triagem de segurança (SOC N1 / Threat Hunting) em ambie
 
 ## 🛠️ Comandos Executados & Investigação
 
-### 1. Mensuração de Tentativas Falhas e Alvos ([Ver Print 1](https://www.google.com/search?q=./prints/print_bash_1.png))
+### 1. Mensuração de Tentativas Falhas e Alvos ([Ver Print 1](https://github.com/Dellova404/SOC-Analyst-Portfolio/blob/main/ssh-bruteforce-analysis/prints/print_bash_1.png))
 
 Filtro de contagem rápida de falhas de autenticação:
 
@@ -39,7 +39,7 @@ grep "Failed password" auth_simulado.log | awk '{print $9}' | sort | uniq -c
 
 ---
 
-### 2. Identificação do Atacante e Comprometimento ([Ver Print 2](https://www.google.com/search?q=./prints/print_bash_2.png))
+### 2. Identificação do Atacante e Comprometimento ([Ver Print 2](https://github.com/Dellova404/SOC-Analyst-Portfolio/blob/main/ssh-bruteforce-analysis/prints/print_bash_2.png))
 
 Isolamento da coluna de endereços IP (coluna 11) com geração de arquivo de evidência:
 
